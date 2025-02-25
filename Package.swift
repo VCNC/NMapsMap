@@ -8,7 +8,7 @@ let package = Package(
             name: "NMapsMap",
             targets: [
                 "NMapsMap",
-                "NMapsMapGeometry"
+                "NMapsGeometry"
             ]
         )
     ],
@@ -19,7 +19,7 @@ let package = Package(
         ),
         .binaryTarget(
             name: "NMapsGeometry",
-            url: "./Sources/NMapsGeometry/NMapsGeometry.xcframework"
+            path: "./Sources/NMapsGeometry/NMapsGeometry.xcframework"
         ),
     ]
 )
